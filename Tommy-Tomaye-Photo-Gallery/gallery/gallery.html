@@ -1,0 +1,7 @@
+
+<!--Photo grid:-->
+<div class="col-md-12">
+  <ul ng-repeat="photo in photos | filter:query">
+    <a href="#/gallery/{{photo.id}}" class="thumbs"><img ng-src="{{photo.imageUrl}}"></a>
+  </ul>
+</div>

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "car1",
+    "imageUrl": "img/img1fullsize.jpg",
+    "name": "Mercedas"
+  },
+  {
+    "id": "car2",
+    "imageUrl": "img/img2fullsize.jpg",
+    "name": "Nissan"
+  },
+  {
+    "id": "car3",
+    "imageUrl": "img/img3fullsize.jpg",
+    "name": "Jeep"
+  },
+  {
+    "id": "car4",
+    "imageUrl": "img/img4fullsize.jpg",
+    "name": "Honda"
+  }
+]

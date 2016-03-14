@@ -1,0 +1,16 @@
+<h2 class="centeredText">{{photos[index].name}}</h2>
+
+<img ng-src="{{imageUrl}}" class="photo">
+
+<div class="commentBox">
+  <form>
+   <h2>Comments:</h2>
+    <input class="notOnBackground" ng-model="userComment"
+      placeholder="leave your comment..." style="width:400px">
+    </input>
+    <button class="notOnBackground" ng-click="btn_add();">share your thoughts</button>
+    <ul class="commentList">
+      <li ng-repeat="cmt in comments track by $index">{{date | date:'MM dd, yyyy HH:mm '}}<br />{{ cmt }}</li>
+    </ul>
+  </form>
+</div>

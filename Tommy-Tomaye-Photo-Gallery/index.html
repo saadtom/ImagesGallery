@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="photoGalleryApp" class="no-js">
+<head>
+  <title>Tommy Tomaye code challege</title>
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+  <script src="http://momentjs.com/downloads/moment.min.js"></script>
+</head>
+<body>
+
+  <ul class="menu">
+    <h1><a href="#/gallery">Images Gallery Main page</a></h1>
+    <p>This images gallery made by Tommy Tomaye</p>
+  </ul>
+
+  <!-- I'm loading the html template over here --> 
+  <div ng-view></div>
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="gallery/gallery.js"></script>
+  <script src="show/show.js"></script>
+</body>
+</html>

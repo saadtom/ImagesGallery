@@ -1,0 +1,78 @@
+/* app css stylesheet */
+
+body {
+   margin: 0px;
+   padding: 0px;
+   background: #333;
+   color: white;
+}
+
+a {
+  color: #0FBBF5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+.col-md-12 {
+    width:80%; 
+    margin:0px auto; 
+}
+.notOnBackground {
+  color: black;
+  border:none;
+    padding:5px; 
+  background-color:#fff;
+}
+
+.menu {
+  margin-bottom: 2em;
+  margin-top: 4em;
+}
+.menu h1, p {
+    text-align:center; 
+    color:#fff;
+}
+.stuff {
+  margin-left: 20px;
+}
+
+.commentBox {
+  margin: auto;
+  width: 800px;
+  height: 600px;
+  margin-top: 0em;
+  padding: 12px;
+}
+
+.commentList {
+  height: 600px;
+}
+.commentList li {
+    list-style:none; 
+}
+
+.centeredText {
+  text-align: center;
+}
+
+.thumbs {
+  float: left;
+  position: relative;
+  margin: 10px;
+  list-style: none;
+  border: 2px solid grey;
+}
+
+.thumbs img {
+  height: 220px;
+  padding: 2px;
+}
+
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #fff;
+}
