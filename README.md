@@ -1,3 +1,2 @@
-This is Tommy Code regarding the images gallery challenge 
-please download it and let me know what you think 
-Thanks
+Simple images Gallery using Angular.js
+this project has the feature of adding comments to any picture when you open it on a seperate window 
